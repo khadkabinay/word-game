@@ -18,6 +18,11 @@
 ![wireframes for word game](pics/wordgame1.png)
 
 
+<!-- visual representation-->
+>## Visual Representation 
+![wireframes for word game](pics/wordgame2.png)
+
+
 
 <!-- User story  and game logic -->
 
