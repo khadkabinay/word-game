@@ -3,7 +3,7 @@
 
 <!-- core concept -->
 >## About
-### This project is all about finding a word by collecting a single letter on given condition.Furthermore, mental excercise ,concentration as well as engaging are core concept of this game.
+### This project is all about finding a word by collecting a single letter on given condition.Furthermore, mental excercise and concentration  are core concept of this game.
 
 
 
