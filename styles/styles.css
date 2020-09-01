@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+#game-area {
+    width: 400px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #b0bbb3;
+}
+
+h2{
+    height: 100px;
+
+}
+
+.letter-div{
+    width: 25px;
+    height: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    color: #fff;
+   
+    
+    
+    
+}
+
+
+section{
+    position: relative;
+}
+
+
+.bucketDiv {
+  width: 40px;
+  height: 40px;
+  background-color: #5E4285;
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+  border-radius: 10px 10px 0 0;
+
+
+}
+
+
+
