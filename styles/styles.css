@@ -4,29 +4,124 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    background-image: url("/pics/wordgame3.jpg");
+
 
 }
 
+
+
+h1{
+ background-color: #b57d84;
+ display: inline-block;
+ width: 400px;
+ padding: 20px 0;
+ font-size: 40px;
+ 
+
+ 
+}
 
 #game-area {
     width: 400px;
     min-height: 400px;
     margin: 0 auto;
+    overflow: hidden;
     background-color: #b0bbb3;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 0 silver;
 }
 
 h2{
     height: 100px;
+    
 
 }
 
+header {
+    background-color: #b57d84;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 0 silver;
+
+
+
+}
+
+ul {
+list-style: none;
+    
+   
+    
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #b0bbb3;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px 0;
+
+}
+
+.word-display{
+    background-color:#bad9f5;
+    padding: 15px 30px; 
+
+
+}
+
+.player{
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 50px;
+    color: white;
+    background-color: #5E4285;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 13px 0 silver;
+}
+
+input[placeholder]{
+    text-align: center;
+    line-height: 20px;
+    border: none;
+}
+
+input{
+ width: 190px;
+ height: 30px;
+
+}
+
+#start{
+ margin-top: 5px;
+ width: 150px;
+ height: 30px;
+ background-color: #0000ff;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 10px 10px 13px 0 silver;
+}
+
+
+
+
 .letter-div{
-    width: 25px;
+    width: 20px;
     height: 20px;
     padding: 5px;
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
     color: #fff;
+    position: absolute;
+   
    
     
     
@@ -34,12 +129,8 @@ h2{
 }
 
 
-section{
-    position: relative;
-}
 
-
-.bucketDiv {
+.bucket-div {
   width: 40px;
   height: 40px;
   background-color: #5E4285;
@@ -50,6 +141,8 @@ section{
 
 
 }
+
+
 
 
 
