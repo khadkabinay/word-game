@@ -13,12 +13,23 @@
   <header>
    <h1>Word Game</h1>
         <nav>
+    <label class='option' for="game-level">Choose a Level:</label>
+    <select id="game-level">
+    <option value="3" selected>3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    </select> <br>
+
                <ul>
                 <li>points: <span class="point"></span> </li>
                 <li>wrong hits:<span class="wrong-hit"></span></li>
                </ul>
         </nav>
-   <div class="word-display"></div>
+   <div class="word-display">
+     Matched letters: <span></span>
+    
+
+   </div>
  </header>
   
 
@@ -32,6 +43,7 @@
 
 
   <footer>
+
       <div class="player1 player">Player 1</div> 
       <div class="player2 player">Player 2</div><br>
      <input type="text" class='target-word' placeholder="Your target word"><br> 

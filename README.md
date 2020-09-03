@@ -80,7 +80,7 @@
 3. when player collect points;
       * one next sibling letter gets 1 point
       * one targeted letter gets 1 point
-      * to keep in mind, if player collects more than required next sibling,the points for the extra next sibling letter will not be added to  the total points. 
+     
  
 
 
