@@ -1,181 +1,241 @@
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-    background-image: url("/pics/wordgame3.jpg");
-
-
-}
-
-
-
-h1{
- background-color: #b57d84;
- display: inline-block;
- width: 400px;
- padding: 20px 0;
- font-size: 40px;
- 
-
- 
-}
-
-#game-area {
-    width: 400px;
-    min-height: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    background-color: #b0bbb3;
-    /* background-color: #343940; */
-    position: relative;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 10px 10px 20px 0 silver;
-}
-
-h2{
-    height: 30px;
-    
-
-}
-
-header {
-    background-color: #b57d84;
-    display: inline-block;
-    min-height: 100px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 10px 10px 20px 0 silver;
-
-
-
-}
-
-ul {
-list-style: none;
-    
-   
-    
-}
-
-li{
-    display: inline-block;
-    margin-right: 20px;
-    background-color: #b0bbb3;
-    font-size: 20px;
-    width: 150px;
-    padding: 10px 0;
-    border: none;
-    border-radius: 5px;
-    
-
-}
-
-.word-display{
-    background-color:#d8e2f0;
-    /* padding: 30px 0; */
-    font-size: 20px;
-    text-align: start;
-    padding-left: 10px;
-
-
-}
-
-.player{
-    display: inline-block;
-    margin: 10px 0;
-    padding: 10px 50px;
-    color: white;
-    background-color: #5E4285;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 10px 10px 13px 0 silver;
-}
-
-input[placeholder]{
-    text-align: center;
-    line-height: 20px;
-    border: none;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 10px 10px 13px 0 silver;
-}
-
-input{
- width: 200px;
- height: 30px;
- 
-
-}
-
-#start{
- margin-top: 5px;
- width: 150px;
- height: 40px;
- background-color: #0000ff;
- padding: 5px;
- color: #fff;
- border: none;
- border-radius: 5px;
- box-shadow: 10px 10px 13px 0 silver;
-}
+            :root{
+            
+            /*  Brand Colors  */
+            --background-header: #b57d84;
+            --color-blue: #0000ff; 
+            --box-shadow: 10px 10px 20px 0 silver;
+            --border-radius: 5px;
 
 
 
 
-.letter-div{
-    width: 22px;
-    height: 22px;
-    padding: 8px;
-    display: inline-block;
-    margin: 40px;
-    color: #fff;
-    position: absolute;
-    border-radius: 50%;
-   
-   
-   
-    
-    
-    
-}
+            /*  Fonts  */
+            --base-font:'Anton', sans-serif; 
+            }
+
+            body{
+                margin: 0;
+                padding: 10px;
+                box-sizing: border-box;
+                text-align: center;
+                background-image: url("/pics/wordgame3.jpg");
+                
 
 
-.option{
-font-size: 25px;
-border: grey;
-color: red;
-
-}
-
-#game-level{
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
-     
-}
+            }
 
 
-.msg-game-over{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color: #ffee0e;
-  opacity: 0.4;
-  /* text-align: center; */
-  top: 130px;
-  left: 150px;
 
-}
+            h1{
+            background-color: var(--background-header);
+            display: inline-block;
+            width: 400px;
+            padding: 20px 0;
+            font-size: 40px;
+            font-family: 'Anton', sans-serif;
+            
+
+            
+            }
+
+            #game-area {
+                width: 400px;
+                min-height: 400px;
+                margin: 0 auto;
+                overflow: hidden;
+                background-color: #b0bbb3;
+                /* background-color: #343940; */
+                position: relative;
+                border: none;
+                border-radius: var(--border-radius);
+                box-shadow: var(--box-shadow);
+            }
+
+            h2{
+                height: 30px;
+                
+
+            }
+
+            header {
+                background-color: var(--background-header);
+                display: inline-block;
+                min-height: 100px;
+                margin-top: 10px;
+                border: none;
+                border-radius: var(--border-radius);
+                box-shadow: var(--box-shadow);
 
 
-.play-btn{
 
-color: #0000ff;
-padding: 20px;
+            }
 
-}
+            nav ul {
+            list-style: none;
+            font-family: var(--base-font);
+                
+            
+                
+            }
+
+            nav ul li{
+                display: inline-block;
+                margin-right: 20px;
+                background-color: #b0bbb3;
+                font-size: 20px;
+                width: 150px;
+                padding: 10px 0;
+                border: none;
+                border-radius: var(--border-radius);
+                
+                
+
+            }
+
+            .word-display{
+                background-color:#d8e2f0;
+                /* padding: 30px 0; */
+                font-size: 20px;
+                text-align: start;
+                padding-left: 10px;
+                font-family: var(--base-font);
+
+
+            }
+
+
+
+            input[placeholder]{
+                text-align: center;
+                line-height: 20px;
+                border-radius: var(--border-radius);
+                box-shadow: 10px 10px 13px 0 silver;
+            }
+
+            input{
+            width: 200px;
+            height: 30px;
+            margin-top: 10px;
+            border: 1px solid #fff;
+            
+            
+
+            }
+
+            input:hover{
+            border: none;
+            border: 1px solid var(--color-blue);
+            
+
+            }
+
+            input:active {
+                border: 1px solid var(--color-blue); 
+            }
+
+
+
+            #start{
+            margin-top: 5px;
+            width: 150px;
+            height: 40px;
+            background-color:#344fb3;
+            padding: 5px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 10px 10px 13px 0 silver;
+            }
+
+            #start:hover{
+
+            background-color: var(--color-blue);   
+            }
+
+
+
+
+            .letter-div{
+                height:50px;
+                width: 50px;
+                padding: 15px 10px;
+                margin: 30px;
+                color: #fff;
+                position: absolute;
+                border-radius: 50%;
+                font-size: 15px;
+                box-sizing: border-box;
+            
+            
+            
+                
+                
+                
+            }
+
+
+            .option{
+            font-size: 25px;
+            border: grey;
+            color: #ff0000;
+            font-family: var(--base-font);
+
+            }
+
+            #game-level{
+                font-size: 20px;
+                border: none;
+                border-radius: 10px;
+                font-family: var(--base-font);
+                
+            }
+
+
+            .msg-game-over{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: #ffee0e;
+            opacity: 0.5;
+            top: 130px;
+            left: 130px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: var(--box-shadow);
+            padding: 10px;
+            
+            
+
+            }
+
+
+
+
+            .game-rule{
+            width: 400px;
+            height: 400px;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            background-color: black;
+            color:  #fff;
+            opacity: .7;
+            padding-right: 20px;
+
+
+
+
+            
+
+
+
+            }
+
+            .game-rule li{
+                display: flex;
+                flex-direction: row;
+            }
+
 

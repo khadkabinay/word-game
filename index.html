@@ -1,54 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous" defer></script>
-    <script src="./js/app.js" defer></script>
-    <title>word game</title>
-</head>
-<body>
-  <header>
-   <h1>Word Game</h1>
-        <nav>
-    <label class='option' for="game-level">Choose a Level:</label>
-    <select id="game-level">
-    <option value="3" selected>3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-    </select> <br>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="./styles/styles.css">
+          <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        
+          <script src="./js/app.js" defer></script>
+          <title>word game</title>
+      </head>
+      <body>
+        <header>
+        <h1>Word Game</h1>
+              <nav>
+                <label class='option' for="game-level">Choose a Level:</label>
+                <select id="game-level">
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                </select> <br>
 
-               <ul>
-                <li>points: <span class="point"></span> </li>
-                <li>wrong hits:<span class="wrong-hit"></span></li>
-               </ul>
-        </nav>
-   <div class="word-display">
-     Matched letters: <span></span>
-    
+                    <ul>
+                      <li>points: <span class="point"></span> </li>
+                      <li>wrong hits:<span class="wrong-hit"></span></li>
+                    </ul>
+              </nav>
+        <div class="word-display">
+          Matched letters: <span></span>
+          
 
-   </div>
- </header>
-  
+        </div>
+      </header>
+        
+      <section id="game-area">
+
+      <article class="game-rule">
+          <h3>Rules and Instructions :</h3>
+        <ol>
+          <li>1. Green and Blue letters will add  1 point.</li>
+          <li>2. Red letter will subtract 2 points.</li>
+          <li>3. Less than 0 will lose.</li>
+          <li>4. No word collect will lose.</li>
+          <li>5. 50% of word's length wrong hits will lose.</li>
+          <li>6. Odd word length will be rounded down.</li>
+          <li>7. Call green by every increamental points.</li>
+          <li>8. Choose your speed level. </li>
+          <li>9. Input Your target word. </li>
+          <li>10. Start. </li>
+
+        </ol>
+
+      </article>
+        
+        
+          
+        
+        
+      </section>
 
 
- <section id="game-area">
-    
-   
-   
-</section>
 
+        <footer>
+        <input type="text" class='target-word' placeholder="Your target word"><br> 
+            <button id="start">START</button>
+        </footer>
 
-
-  <footer>
-
-      <div class="player1 player">Player 1</div> 
-      <div class="player2 player">Player 2</div><br>
-     <input type="text" class='target-word' placeholder="Your target word"><br> 
-       <button id="start">START</button>
-  </footer>
-
-   </body> 
-</html>
+        </body> 
+      </html>
