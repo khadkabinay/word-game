@@ -197,18 +197,27 @@
             width: 150px;
             height: 150px;
             background-color: #ffee0e;
-            opacity: 0.5;
+            opacity: 0.8;
             top: 130px;
             left: 130px;
             font-size: 20px;
             font-weight: bold;
             border-radius: 5px;
-            box-shadow: var(--box-shadow);
             padding: 10px;
+            transition: transform 2s ease 4s, box-shadow 3s ease-in 4s;
+            transform: scale(0);
             
             
 
             }
+
+
+            .msg-game-over{
+                transform: scale(1);
+                box-shadow: 0 10px 10px 0 grey;
+                
+            }
+
 
 
 

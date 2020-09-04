@@ -90,7 +90,7 @@
                             gamePlayArea.append(msgBox)
                         
                             }else if (catchWordDisplay.textContent.length === 1 || (catchWordDisplay.textContent.length === 0)){
-                            msgBox.textContent = `Sorry !! You collect ${catchWordDisplay.textContent.length}  letter`
+                            msgBox.textContent = `Sorry !! You collect ${catchWordDisplay.textContent.length}  letter.`
                             gamePlayArea.append(msgBox)
 
                         }else if (catchWordDisplay.textContent.length < inputWord.value.length) {
@@ -292,6 +292,8 @@
 
 
 
+    
+             
                 startBtn.addEventListener("click" , generateLetters)
                 gamePlayArea.addEventListener("click" , play)
 
