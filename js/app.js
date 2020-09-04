@@ -116,7 +116,8 @@
                     if((playerPoints < 0)||(wrongPoints >= Math.floor(inputWord.value.length/2) ||(index  > inputWord.value.length - 1)) ){
                         window.cancelAnimationFrame(requestAnimation)
                         element.remove()
-                        isGameOver = true 
+                        isGameOver = true
+                        startBtn.textContent = "PLAY AGAIN" 
                         setTimeout(displayMessage, 1500)
                         clearInterval(setTimeId)
 
@@ -275,6 +276,7 @@
                     if (isGameOver){
                         isGameOver = false
                         window.location.reload(true)
+                        
 
                         startGame()
                         if(!isGameOver){
