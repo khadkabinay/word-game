@@ -15,12 +15,12 @@
 
 <!-- project Wiregrames -->
 >## Word-game wireframe
-![wireframes for word game](pics/wordgame1.png)
+![wireframes for word game](pics/wareFrame1.png)
 
 
 <!-- visual representation-->
 >## Visual Representation 
-![wireframes for word game](pics/wordgame2.png)
+![wireframes for word game](pics/vsdisplay1.png)
 
 
 
