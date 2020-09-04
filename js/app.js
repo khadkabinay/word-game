@@ -146,7 +146,7 @@
                 let ranTartLetter = Math.floor(Math.random() * letterGroup.targetedLetters.length)
                 
 
-                // creates divs 
+                // creates divs for each letter
                 const divElement = document.createElement('div');
                 divElement.classList.add("letter-div")
 
@@ -215,6 +215,8 @@
 
 
 
+
+                
                 
 
 

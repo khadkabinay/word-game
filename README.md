@@ -11,7 +11,7 @@
   * HTML
   * CSS
   * JAVASCRIPT
-  * JQUERY 
+ 
 
 <!-- project Wiregrames -->
 >## Word-game wireframe
@@ -30,9 +30,8 @@
 
  ### 1. User stories
 
- 1. Both players decide which word will be the target word.
+ 1. first, decide which word will be the target word.
 
- 2. Who will go first.
 
  3. When the user inputs a word ,hits start button , game should start.
 
@@ -50,9 +49,9 @@
 
  8. When player collects all of the targeted letters, game will be over for the first player and his/her total points displayed. 
 
- 9. Now, it's turn for second player. 
 
- 10. Who has more points will be the winner.
+
+
  
 
 
@@ -106,5 +105,5 @@
 
     * When wrong hits is equal to 50% of total length of targeted  word( in this context: 2 is 50% of 4 letters(good)but if length of a word is odd , number will be rounded down), game will be over and total points is (+-)n.
 
-    * who has more total points will be the winner. 
+    * when all letters collected , it congratulates the player.
 
