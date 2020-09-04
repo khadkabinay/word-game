@@ -271,6 +271,22 @@
 
                 // calls two functions , startGame and generateColor
                 const generateLetters = function(){
+                    
+                    if (isGameOver){
+                        isGameOver = false
+                        window.location.reload(true)
+
+                        startGame()
+                        if(!isGameOver){
+                        setTimeId =   setInterval(function() {
+                            generateColor(Math.floor(Math.random() * ( gameWidth - 90))) 
+                        }, 300)
+                            
+                        
+                    
+                    
+                        }
+                    }
 
                     const gameRuleElement = document.querySelector(".game-rule")
                     gameRuleElement.remove()
